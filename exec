@@ -1,0 +1,12 @@
+sudo apt install -y build-essential libassuan-dev libgcrypt20-dev libgpg-error-dev libksba-dev libnpth0-dev libsqlite3-dev libbz2-dev libreadline-dev
+clear
+wget https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.5.tar.bz2
+tar -xvf gnupg-2.4.5.tar.bz2
+cd gnupg-2.4.5
+clear
+./configure
+clear
+make
+sudo make install
+clear
+gpg --version
