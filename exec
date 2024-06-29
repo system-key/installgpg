@@ -10,4 +10,5 @@ clear
 make
 sudo make install
 clear
+cd -
 gpg --version
